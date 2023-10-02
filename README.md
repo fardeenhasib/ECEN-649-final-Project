@@ -1,4 +1,4 @@
-# Heart Disease Detection using Machine Learning¹[1]
+# Heart Disease Detection using Machine Learning
 
 This project aims to predict potential heart diseases in people using Machine Learning algorithms. The algorithms include K-Neighbors Classifier, Support Vector Classifier and Decision Tree Classifier. The dataset has been taken from [UCI Machine Learning Repository](^1^).
 
@@ -43,7 +43,7 @@ The results of the models are:
 | KNN   | 0.885    | 0.885  |
 | DTC   | 0.787    | 0.787  |
 
-The SVC and KNN models have similar and better performance than the DTC model²¹[21]. The SVC model uses the radial basis function (rbf) kernel with gamma set to 0.3, which is selected by cross-validation²²[22]. The KNN model uses 7 neighbors, which is selected by trial and error. The DTC model uses the default parameters and does not perform pruning, which may cause overfitting.
+The SVC and KNN models have similar and better performance than the DTC model. The SVC model uses the radial basis function (rbf) kernel with gamma set to 0.3, which is selected by cross-validation. The KNN model uses 7 neighbors, which is selected by trial and error. The DTC model uses the default parameters and does not perform pruning, which may cause overfitting.
 
 ## References
 
